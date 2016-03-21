@@ -1,0 +1,16 @@
+<resources>
+    <string name="open_weather_maps_app_id">11111</string>
+    <string name="app_name">APIApp</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="title_activity_coat">CoatActivity</string>
+    <string name="no_cities">No cities match your search!</string>
+    <string name="wintercoat_need">You need a wintercoat today!</string>
+    <string name="light_jacket_need">You need a light jacket today!</string>
+    <string name="no_coat_need">You don\'t need a coat today!</string>
+    <string name="forecast">forecast</string>
+    <string name="forecast_elements">forecastElements</string>
+    <string name="city_input">city_input</string>
+    <string name="url"><![CDATA[https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22amsterdam%2C%20ak%22)&format=json]]></string>
+</resources>
